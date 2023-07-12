@@ -14,7 +14,9 @@
   </head>
   <body>
     <div class="container">
-      <div class="flex space-x-5 mx-10 mt-4 justify-evenly">
+      <div
+        class="flex space-x-5 mx-10 mt-4 justify-evenly border-b-8 border-red-400"
+      >
         <div class="h-2">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
@@ -48,7 +50,7 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-evenly">
+      <div class="flex justify-evenly mt-10">
         <div>
           <img src="src/images/bed.jpg" alt="" class="h-6 w-6" />
           <p class="text-xs">Bed & breakfasts</p>
@@ -100,6 +102,17 @@
         <div>
           <button>Filters</button>
         </div>
+      </div>
+      <div class="mx-10">
+        <section
+          class="w-fit mx-auto flex justify-between gap-32 items-center border-[1.5px] px-6 py-1 my-8 rounded-xl"
+        >
+          <div class="flex items-center">
+            <p class="border-r-[1.5px] pr-6 font-medium">Display total price</p>
+            <p class="ml-6 text-gray-600">Include all fees, before taxes</p>
+          </div>
+          <img class="w-12" src="images/off-button.png" alt="" />
+        </section>
       </div>
     </div>
   </body>
