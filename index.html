@@ -1,27 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Airbnb clone</title>
     <link href="/dist/output.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Roboto:ital,wght@0,700;1,400;1,700&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
-    <header>
-      <div>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
-          alt=""
-          class="h-[102px] w-[80px]"
-        />
+    <div class="container">
+      <div class="flex space-x-5 mx-10 mt-4 justify-evenly">
+        <div class="h-2">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
+            alt="Airbnb logo"
+            class="w-[102px] h-[80px] relative bottom-6"
+          />
+        </div>
+
+        <div class="list">
+          <ul class="flex">
+            <li class="border-r-2  border-solid mx-3">
+              <a href="#" class="px-2">Anywhere</a>
+            </li>
+            <li class="border-r-2  border-solid mx-3">
+              <a href="#" class="px-2">Any week</a>
+            </li>
+            <li class="mx-3"><a href="#" class="px-2">Add guest</a></li>
+            <li class="bg-red-600 rounded-full justify-center">
+              <i class="fa fa-search px-2 text-white p-2"></i>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex space-x-5 justify-center">
+          <p>Airbnb your home</p>
+          <i class="fa-solid fa-globe relative top-1"></i>
+          <div
+            class="user flex space-x-2 border border-stone-400 rounded-full justify-center"
+          >
+            <i class="fa fa-bars p-2"></i>
+            <i class="fa fa-user p-2"></i>
+          </div>
+        </div>
       </div>
-      <div>
-    </header>
+    </div>
   </body>
 </html>
